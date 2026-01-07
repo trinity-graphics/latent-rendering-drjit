@@ -1073,6 +1073,7 @@ template <typename T> void bind_all(ArrayBinding &b) {
     bind_array_types<Array<T, 3>>(b);
     bind_array_types<Array<T, 4>>(b);
     bind_array_types<Array<T, 16>>(b);
+    bind_array_types<Array<T, 32>>(b);
     bind_array_types<Array<T, 64>>(b);
     bind_array_types<DynamicArray<T>>(b);
 
